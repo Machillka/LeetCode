@@ -1,3 +1,5 @@
+namespace Problem20;
+
 public class Solution
 {
     public bool IsValid(string s)
@@ -39,11 +41,5 @@ public class Solution
         }
 
         return checkStack.Count == 0;
-    }
-
-    public static void Main()
-    {
-        Solution solution = new Solution();
-        Console.WriteLine(solution.IsValid("{}"));
     }
 }

@@ -1,4 +1,4 @@
-﻿using Problem64;
+﻿using Problem63;
 
 public class Program
 {
@@ -6,10 +6,9 @@ public class Program
     {
         var sol = new Solution();
 
-        int[][] test = [[1, 2, 3], [4, 5, 6]];
+        int[][] test = [[0,1],[0,0]];
 
-        var ans = sol.MinPathSum(test);
+        var ans = sol.UniquePathsWithObstacles(test);
         Console.WriteLine(ans);
-        sol.Log();
     }
 }

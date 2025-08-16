@@ -1,4 +1,4 @@
-﻿using Problem63;
+﻿using Problem79;
 
 public class Program
 {
@@ -6,9 +6,9 @@ public class Program
     {
         var sol = new Solution();
 
-        int[][] test = [[0,1],[0,0]];
+        char[][] test = [['A','B','C','E'],['S','F','C','S'],['A','D','E','E']];
 
-        var ans = sol.UniquePathsWithObstacles(test);
+        var ans = sol.Exist(test, "ABCB");
         Console.WriteLine(ans);
     }
 }

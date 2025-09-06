@@ -1,4 +1,4 @@
-﻿using Problem98;
+﻿using Problem5;
 public class Program
 {
     public static void Main(string[] args)
@@ -9,6 +9,9 @@ public class Program
 
         // var ans = sol.Exist(test, "ABCB");
         // Console.WriteLine(ans);
-        sol.IsValidBST(null);
+        string s = "babad";
+        var ans = sol.Temp(s);
+        Console.WriteLine(ans);
+        Console.WriteLine(sol.IsReversedString("aa", 0, 1));
     }
 }

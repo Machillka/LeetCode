@@ -22,7 +22,7 @@ namespace Problem5
 			int len = s.Length;
 			int resLength = 0;
 			string res = "";
-			for (int left = 0; left < len; left++)
+			for (int left = 0; left < len; left++)	
 			{
 				int right = left;
 				while (right < len)

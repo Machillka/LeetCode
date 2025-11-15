@@ -1,4 +1,4 @@
-﻿using Problem931;
+﻿using Problem3234;
 using DataStructions;
 
 public class Program
@@ -7,9 +7,9 @@ public class Program
     {
         var sol = new Solution();
 
-        int[][] m = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
+        string s = "101101";
 
-        var ans = sol.MinFallingPathSum(m);
+        var ans = sol.NumberOfSubstrings(s);
         Console.WriteLine(ans);
         // ListNode.PrintList(ans);
     }

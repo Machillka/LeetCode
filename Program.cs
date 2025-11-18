@@ -1,4 +1,4 @@
-﻿using Problem3234;
+﻿using Problem76;
 using DataStructions;
 
 public class Program
@@ -7,9 +7,10 @@ public class Program
     {
         var sol = new Solution();
 
-        string s = "101101";
+        string s = "ADOBECODEBANC";
+        string t = "ABC";
 
-        var ans = sol.NumberOfSubstrings(s);
+        var ans = sol.MinWindow(s, t);
         Console.WriteLine(ans);
         // ListNode.PrintList(ans);
     }
